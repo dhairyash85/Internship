@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-const mongoURI='mongodb://Dhairyash:pass1234@ac-hlgoe7s-shard-00-00.usskidt.mongodb.net:27017,ac-hlgoe7s-shard-00-01.usskidt.mongodb.net:27017,ac-hlgoe7s-shard-00-02.usskidt.mongodb.net:27017/Invictus\'2024?ssl=true&replicaSet=atlas-akf5yl-shard-0&authSource=admin&retryWrites=true&w=majority'
+const mongoURI=''
 
 const connectToMongo=async ()=>{
     try {
