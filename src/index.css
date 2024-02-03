@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bg {
+    /* background: url("../public/introImage.jpg"); */
+    background: linear-gradient(lightblue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 68vh; /* Set the height to 100% of the viewport height */
+    margin: 0;
+  }
+  
